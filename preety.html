@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS-CascadingStyleSheet</title>
+
+    <style>
+        h1 {
+            color: rgba(0, 0, 255, 0.705);
+            background-color: cyan;
+            height: 80px;
+            width: 75%;
+        }
+    
+        h3.kids {
+            color: rgb(220, 127, 20);
+            background-color: darkgrey;
+            height: 60px;
+            width: 50%;
+        }
+
+        h3.sun{
+            color: rgb(20, 220, 53);
+            background-color: darkgrey;
+            height: 60px;
+            width: 50%;
+
+        }
+
+        #IDforH3{
+            color: rgb(162, 19, 233);
+            font-size: 30px;
+            background-color: rgba(169, 169, 169, 0.815);
+        }
+
+        #IDforP{
+            color: red;
+            font-size: 18px;
+        }
+
+        .classForP{
+            color: rgb(202, 34, 202);
+            font-size: 24px;
+        }
+
+        h3.friends{
+            font-size: 14px;
+            color: rgb(248, 46, 10);
+            background-color: wheat;
+        }
+
+        .kids{
+            font-size: 60px;
+        }
+
+        .one{
+            color: yellow;
+            font-size: 26px;
+        }
+
+        .moon{
+            background-color: rgb(224, 13, 224);
+            border: 5px solid purple;
+            border-radius: 5px;
+            margin: 10px;
+            padding: 20px;
+            width: 40%;
+            float: left;
+        }
+
+        .moon-heading{
+            text-align: center;
+            font-size: 30px;
+        }
+    </style>
+</head>
+<body>
+
+    <H1 class="friends">About CSS</H1>
+    <p>Today I will practice about CSS. CSS stand for Cascading Style Sheet.</p>
+    <h3 class="friends">Embedded Style</h3>
+    <p>When we declared "style" tag within "head" tag then it's called embedded style.</p>
+    <h3 class="kids">How to pic color </h3>
+    <p>So far, we have learned 4 different way to pic color like: name color, rgb, rgba and hexcode.</p>
+    
+    <h3 class="kids">CSS measurment unit</h3>
+    <p>We have listed out all the CSS mesurement unit: %, cm, em, ex, in, mm, pc, pt, px.</p>
+
+    <h3 id="IDforH3">HTML id attribute</h3>
+    <p id="IDforP">The HTML id attribute is used to specify a unique id for an HTML element. So you can not have more then </p>
+
+    <h3 class="friends">Class in CSS</h3>
+    <p class="classForP">The class attribute is often used to specify a class for an HTML element.</p>
+    <p class="classForP kids">Multiple HTML element can share the same class.</p>
+    <p class="classForP">The ".class" selector selects elements with a specific class attribute.</p>
+
+    <h3 class="sun">"span" tag</h3>
+    <p>It will help us to do some <span class="one">style</span> for a <span class="one">particular</span> word from a <span class="one">paragraph</span></p>
+
+    <div class="moon">
+        <h3 class="moon-heading">New para one</h3>
+        <p class="moon-para">It's about new paragraph one. New paragraph came fron moon. It's about new paragraph one. New paragraph came fron moon. It's about new paragraph one. New paragraph came fron moon. It's about new paragraph one. New paragraph came fron moon. It's about new paragraph one. New paragraph came fron moon. It's about new paragraph one. New paragraph came fron moon.</p>
+    </div>
+
+    <div class="moon">
+        <h3 class="moon-heading">New para Two</h3>
+        <pclass="moon-para"> This paragraph about new para two. It's also came from moon. It's about new paragraph one. New paragraph came fron moon. It's about new paragraph one. New paragraph came fron moon. It's about new paragraph one. New paragraph came fron moon. It's about new paragraph one. New paragraph came fron moon. It's about new paragraph one. New paragraph came fron moon.</p>
+    </div>
+    
+</body>
+</html>
